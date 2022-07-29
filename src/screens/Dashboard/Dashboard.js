@@ -15,6 +15,7 @@ import {
   MessagesCard,
   OtherPostCard,
 } from "../../components/OtherPostCard/OtherPostCard";
+import CustomModal from "../../components/Modal/Modal";
 
 export default function Dashboard(props) {
   const [data, setData] = useState([]);
@@ -22,6 +23,11 @@ export default function Dashboard(props) {
   const [shortlisted, setShortlisted] = useState("00");
   const [activity, setActivity] = useState("00");
   const [completion, setCompletion] = useState(0);
+  const [show, setShow] = useState(false);
+
+  function handleShow() {
+    setShow(true);
+  }
 
   useEffect(() => {
     setTimeout(() => {
@@ -29,12 +35,19 @@ export default function Dashboard(props) {
       setShortlisted("05");
       setActivity("30");
       setCompletion(75);
-      setData([...demoData.data])
+      setData([...demoData.data]);
     }, 250);
   }, []);
 
   return (
     <div className="dashboard h-100">
+      <CustomModal
+        show={show}
+        setShow={setShow}
+        response={response}
+        shortlisted={shortlisted}
+        activity={activity}
+      />
       <TopNavbar />
       <div className="bottom h-100 d-flex flex-column-reverse flex-lg-row h-100 justify-content-evenly">
         <div className="main-content mt-3 w-lg-90 mx-auto mx-lg-0">
@@ -68,7 +81,7 @@ export default function Dashboard(props) {
               <div className="value">{activity}</div>
               <div className="name">Activity</div>
             </div>
-            <button className="offer-status d-md-none p-2">
+            <button className="offer-status d-md-none p-2" onClick={handleShow}>
               View your account stats
             </button>
           </div>
@@ -111,7 +124,7 @@ export default function Dashboard(props) {
           </div>
         </div>
         <div className="plan-options w-lg-90 mx-auto mx-lg-0 mt-3 d-flex flex-column flex-sm-row flex-lg-column align-items-stretch gap-4">
-          <div className="post-actions d-flex flex-column gap-3 p-4 bg-white">
+          <div className="post-actions d-flex flex-column gap-3 p-4 bg-white justify-content-center">
             <Button variant="primary">Post Requirement</Button>
             <Button variant="primary">
               <img className="me-2" src={rocket} alt="boost" /> Boost Post
