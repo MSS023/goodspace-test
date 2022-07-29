@@ -1,0 +1,190 @@
+.dashboard {
+  min-height: 100%;
+}
+
+.profile-stats {
+  border: 1px solid #eaf1f5;
+  box-shadow: 0px 4px 10px rgba(0, 77, 255, 0.04);
+}
+
+.profile-image {
+  width: 157px;
+  padding-right: 2%;
+  text-align: center;
+}
+
+.stat-image {
+  width: 90%;
+}
+
+.perc-text {
+  bottom: 0;
+  background: #389fff;
+  width: 68px;
+  height: 31px;
+  color: white;
+  line-height: 30px;
+}
+
+.main-content {
+  width: 70%;
+}
+
+.plan-options {
+  width: 20%;
+}
+
+.stat-num {
+  width: 20%;
+  border: 1px solid #eaf1f5;
+  box-shadow: 0px 4px 9px rgba(26, 26, 26, 0.12);
+  height: 108px;
+  border-radius: 20px;
+}
+
+.value {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #389fff;
+}
+
+.name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #40444f;
+}
+
+.search {
+  box-shadow: 0px 4px 10px rgba(0, 77, 255, 0.08);
+  border-radius: 15px;
+  height: 62px;
+  z-index: 1;
+}
+
+.search > input {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #afafaf;
+}
+
+.search > input:hover,
+.search > input:focus {
+  box-shadow: none;
+}
+
+.search-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: right;
+  color: #389fff;
+}
+
+.candidates-list {
+  border: 1px solid #eaf1f5;
+  box-shadow: 0px 4px 10px rgba(0, 77, 255, 0.04);
+  border-radius: 27px;
+  position: relative;
+  top: -40px;
+  z-index: 0;
+}
+
+.post-actions {
+  border: 1px solid #eaf1f5;
+  box-shadow: 0px 4px 10px rgba(0, 77, 255, 0.04);
+  border-radius: 27px;
+  min-width: 200px;
+  width: auto;
+}
+
+.head2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #40444f;
+}
+
+.head1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 20px;
+  color: #389fff;
+}
+
+.option {
+  background: #e9e9e9;
+  border-radius: 6px;
+}
+
+.offer-status {
+  width: auto;
+  background: #389fff;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.option-offer {
+  width: 60%;
+}
+
+.option-remaining {
+  width: 40%;
+  background: #ffffff;
+  border: 2px solid #e9e9e9;
+  border-radius: 6px;
+}
+
+.option-post-num {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #389fff;
+}
+
+.subscript {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+  color: #389fff;
+}
+
+.remaining-num {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .w-lg-90 {
+    width: 90% !important;
+  }
+
+  .w-lg-100 {
+    width: 100% !important;
+  }
+}

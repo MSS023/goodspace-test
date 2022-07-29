@@ -1,0 +1,41 @@
+.home-separator {
+  width: 66px;
+  height: 0px;
+  border: 1px solid #389fff;
+  transform: rotate(90deg);
+}
+
+.home-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #389fff;
+}
+
+.user {
+  width: 44px;
+  height: 44px;
+}
+
+.navbar-toggler {
+  box-shadow: none !important;
+}
+
+.sec {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #1a1a1a;
+  border-width: 3px;
+}
+
+@media screen and (min-width: 992px) {
+  #basic-navbar-nav {
+    display: none !important;
+  }
+}

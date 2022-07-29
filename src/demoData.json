@@ -1,0 +1,76 @@
+{
+    "data": [
+        {
+            "name": "Neha",
+            "designation": "Android Dev",
+            "place": "New Delhi, Delhi, India",
+            "salary": "₹ 5 LPA",
+            "experience": "4 Years",
+            "availability": "Available Immediately",
+            "rating": 9.1
+        },
+        {
+            "name": "Umang",
+            "designation": "Android Dev",
+            "place": "New Delhi, Delhi, India",
+            "salary": "₹ 5 LPA",
+            "experience": "4 Years",
+            "availability": "Available Immediately",
+            "rating": 9.1
+        },
+        {
+            "name": "Neha",
+            "designation": "Android Dev",
+            "place": "New Delhi, Delhi, India",
+            "salary": "₹ 5 LPA",
+            "experience": "4 Years",
+            "availability": "Available Immediately",
+            "rating": 9.1
+        },
+        {
+            "name": "Umang",
+            "designation": "Android Dev",
+            "place": "New Delhi, Delhi, India",
+            "salary": "₹ 5 LPA",
+            "experience": "4 Years",
+            "availability": "Available Immediately",
+            "rating": 9.1
+        },
+        {
+            "name": "Neha",
+            "designation": "Android Dev",
+            "place": "New Delhi, Delhi, India",
+            "salary": "₹ 5 LPA",
+            "experience": "4 Years",
+            "availability": "Available Immediately",
+            "rating": 9.1
+        },
+        {
+            "name": "Umang",
+            "designation": "Android Dev",
+            "place": "New Delhi, Delhi, India",
+            "salary": "₹ 5 LPA",
+            "experience": "4 Years",
+            "availability": "Available Immediately",
+            "rating": 9.1
+        },
+        {
+            "name": "Neha",
+            "designation": "Android Dev",
+            "place": "New Delhi, Delhi, India",
+            "salary": "₹ 5 LPA",
+            "experience": "4 Years",
+            "availability": "Available Immediately",
+            "rating": 9.1
+        },
+        {
+            "name": "Umang",
+            "designation": "Android Dev",
+            "place": "New Delhi, Delhi, India",
+            "salary": "₹ 5 LPA",
+            "experience": "4 Years",
+            "availability": "Available Immediately",
+            "rating": 9.1
+        }
+    ]
+}

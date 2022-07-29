@@ -1,0 +1,132 @@
+.other-post-card,
+.message-card {
+  height: 195px;
+  background: #389fff;
+  width: 90%;
+  margin: 32px auto auto;
+  border-radius: 13.5401px;
+}
+
+.post-content {
+  height: 80%;
+  box-shadow: 0px 1px 10px rgba(44, 150, 249, 0.1);
+  border-radius: 12px;
+}
+
+.card-footer,
+.message-footer {
+  height: 20%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.post-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #389fff;
+}
+
+.text1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #6a6a6b;
+}
+
+.post-stipend {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #389fff;
+}
+
+.post-boost {
+  background: #389fff;
+  border: none;
+  outline: none;
+}
+
+.post-boost:hover,
+.post-boost:focus {
+  box-shadow: none;
+}
+
+.content-left {
+  width: 60%;
+}
+
+.content-right {
+  width: 40%;
+}
+
+.test2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: center;
+  color: #717171;
+}
+
+.message-content {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 70%;
+  box-shadow: 0px 1px 10px rgba(44, 150, 249, 0.1);
+}
+
+.message-footer {
+  height: 30%;
+}
+
+.sender {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #263238;
+}
+
+.mess-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6a6a6b;
+}
+
+.message-text {
+  text-align: left;
+}
+
+.head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #389fff;
+}
+
+.mark-as-read {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #389fff;
+}
